@@ -26,7 +26,7 @@ int main() {
     int menitBertemu = (bertemu % 3600) / 60; // konversi ke menit
     int detikBertemu = (bertemu % 60); // konversi ke detik
 
-    printf("Titik Ali %02d titik Badu %02d\n", jarakAli, jarakBadu); // output titik Ali dan titik Badu
+    printf("Titik Ali %02dm titik Badu %02dm\n", jarakAli, jarakBadu); // output titik Ali dan titik Badu
     printf("Badu mendahului Ali pada pukul %02d:%02d:%02d\n", jamBertemu, menitBertemu, detikBertemu); // output hasil
     return 0; // program selesai
 }
