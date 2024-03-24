@@ -17,7 +17,7 @@ int main() {
 
         Start++; // jam bertambah / berjalan
 
-        if (jarakBadu > jarakAli) { // jika jarak Badu > jarak Ali maka program ini akan jalan
+        if (jarakBadu >= jarakAli) { // jika jarak Badu > jarak Ali maka program ini akan jalan
             bertemu = Start; // bertemu akan mengambil waktu/jam saat Badu sudah mendahului Ali
             break; // perulangan/loop akan berhenti
         }
