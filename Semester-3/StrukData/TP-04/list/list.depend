@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1728233659 source:c:\course\semester-3\strukdata\sturkdata\list\list.cpp
+	<iostream>
+	"list.h"
+
+1728233622 c:\course\semester-3\strukdata\sturkdata\list\list.h
+	<iostream>
+
+1728233989 source:c:\course\semester-3\strukdata\sturkdata\list\main.cpp
+	<iostream>
+	"list.h"
+
