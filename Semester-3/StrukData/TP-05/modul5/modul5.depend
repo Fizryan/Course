@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1728839259 source:c:\course\semester-3\strukdata\sturkdata\modul5\main.cpp
+	<iostream>
+	"linkedList.h"
+
+1728837278 c:\course\semester-3\strukdata\sturkdata\modul5\linkedlist.h
+	<string>
+
+1728840660 source:c:\course\semester-3\strukdata\sturkdata\modul5\linkedlist.cpp
+	<iostream>
+	<cstring>
+	"linkedList.h"
+

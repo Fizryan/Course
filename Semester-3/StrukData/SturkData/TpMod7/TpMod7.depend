@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1730057796 source:c:\course\semester-3\strukdata\sturkdata\tpmod7\main.cpp
+	<iostream>
+	"stack.h"
+
+1730052682 c:\course\semester-3\strukdata\sturkdata\tpmod7\stack.h
+
+1730057367 source:c:\course\semester-3\strukdata\sturkdata\tpmod7\stack.cpp
+	<iostream>
+	"stack.h"
+

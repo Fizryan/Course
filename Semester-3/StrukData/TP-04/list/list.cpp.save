@@ -58,7 +58,7 @@ void deleteLast(List &L, address &P) {
         } else {
             while (next(last) != nullptr) {
                 prevLast = last;
-                last = next(last)
+                last = next(last);
             }
             P = last;
             next(prevLast) = nullptr;
@@ -76,12 +76,13 @@ void deleteAfter(List &L, address Prec, address &P) {
 
 address searchInfo(List L, int info) {
     address P = first(L);
-    
+
     while (P != nullptr) {
         if (info(P) == info) {
             return P;
         }
-        P = next(P)
-    
+        P = next(P);
+
     }
+    return nullptr;
 }
